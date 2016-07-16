@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F16BFCF41D3A20F200A1F067 /* CompleteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16BFCF31D3A20F200A1F067 /* CompleteTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F16E9B2A1D28C8320032FB03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B291D28C8320032FB03 /* main.m */; };
 		F16E9B2D1D28C8320032FB03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B2C1D28C8320032FB03 /* AppDelegate.m */; };
-		F16E9B301D28C8320032FB03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B2F1D28C8320032FB03 /* ViewController.m */; };
 		F16E9B331D28C8320032FB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16E9B311D28C8320032FB03 /* Main.storyboard */; };
 		F16E9B351D28C8320032FB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16E9B341D28C8320032FB03 /* Assets.xcassets */; };
 		F16E9B381D28C8320032FB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16E9B361D28C8320032FB03 /* LaunchScreen.storyboard */; };
+		F16E9B411D2A73320032FB03 /* PrepareFoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B401D2A73320032FB03 /* PrepareFoodListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F16E9B441D2A752E0032FB03 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B431D2A752E0032FB03 /* FoodItem.m */; settings = {ASSET_TAGS = (); }; };
+		F16E9B471D2A806D0032FB03 /* TimeBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B461D2A806D0032FB03 /* TimeBoardViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F16E9B4A1D2A89190032FB03 /* ExecitingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E9B491D2A89190032FB03 /* ExecitingTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F16BFCF21D3A20F200A1F067 /* CompleteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteTableViewController.h; sourceTree = "<group>"; };
+		F16BFCF31D3A20F200A1F067 /* CompleteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteTableViewController.m; sourceTree = "<group>"; };
 		F16E9B251D28C8320032FB03 /* TimerSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16E9B291D28C8320032FB03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F16E9B2B1D28C8320032FB03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F16E9B2C1D28C8320032FB03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F16E9B2E1D28C8320032FB03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F16E9B2F1D28C8320032FB03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F16E9B321D28C8320032FB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F16E9B341D28C8320032FB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16E9B371D28C8320032FB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16E9B391D28C8320032FB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16E9B3F1D2A73320032FB03 /* PrepareFoodListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepareFoodListViewController.h; sourceTree = "<group>"; };
+		F16E9B401D2A73320032FB03 /* PrepareFoodListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepareFoodListViewController.m; sourceTree = "<group>"; };
+		F16E9B421D2A752E0032FB03 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		F16E9B431D2A752E0032FB03 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		F16E9B451D2A806D0032FB03 /* TimeBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeBoardViewController.h; sourceTree = "<group>"; };
+		F16E9B461D2A806D0032FB03 /* TimeBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeBoardViewController.m; sourceTree = "<group>"; };
+		F16E9B481D2A89190032FB03 /* ExecitingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExecitingTableViewController.h; sourceTree = "<group>"; };
+		F16E9B491D2A89190032FB03 /* ExecitingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExecitingTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +72,17 @@
 			children = (
 				F16E9B2B1D28C8320032FB03 /* AppDelegate.h */,
 				F16E9B2C1D28C8320032FB03 /* AppDelegate.m */,
-				F16E9B2E1D28C8320032FB03 /* ViewController.h */,
-				F16E9B2F1D28C8320032FB03 /* ViewController.m */,
 				F16E9B311D28C8320032FB03 /* Main.storyboard */,
+				F16E9B3F1D2A73320032FB03 /* PrepareFoodListViewController.h */,
+				F16E9B401D2A73320032FB03 /* PrepareFoodListViewController.m */,
+				F16E9B451D2A806D0032FB03 /* TimeBoardViewController.h */,
+				F16E9B461D2A806D0032FB03 /* TimeBoardViewController.m */,
+				F16E9B481D2A89190032FB03 /* ExecitingTableViewController.h */,
+				F16E9B491D2A89190032FB03 /* ExecitingTableViewController.m */,
+				F16BFCF21D3A20F200A1F067 /* CompleteTableViewController.h */,
+				F16BFCF31D3A20F200A1F067 /* CompleteTableViewController.m */,
+				F16E9B421D2A752E0032FB03 /* FoodItem.h */,
+				F16E9B431D2A752E0032FB03 /* FoodItem.m */,
 				F16E9B341D28C8320032FB03 /* Assets.xcassets */,
 				F16E9B361D28C8320032FB03 /* LaunchScreen.storyboard */,
 				F16E9B391D28C8320032FB03 /* Info.plist */,
@@ -150,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16E9B301D28C8320032FB03 /* ViewController.m in Sources */,
+				F16E9B471D2A806D0032FB03 /* TimeBoardViewController.m in Sources */,
+				F16E9B411D2A73320032FB03 /* PrepareFoodListViewController.m in Sources */,
+				F16E9B441D2A752E0032FB03 /* FoodItem.m in Sources */,
 				F16E9B2D1D28C8320032FB03 /* AppDelegate.m in Sources */,
+				F16BFCF41D3A20F200A1F067 /* CompleteTableViewController.m in Sources */,
+				F16E9B4A1D2A89190032FB03 /* ExecitingTableViewController.m in Sources */,
 				F16E9B2A1D28C8320032FB03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +323,7 @@
 				F16E9B3E1D28C8320032FB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
