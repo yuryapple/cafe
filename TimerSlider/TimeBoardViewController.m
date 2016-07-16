@@ -7,6 +7,8 @@
 //
 
 #import "TimeBoardViewController.h"
+#import "ExecitingTableViewController.h"
+#import "CompleteTableViewController.h"
 
 @interface TimeBoardViewController ()
 
@@ -17,7 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"main frame %f", self.view.frame.size.height );
+    ExecitingTableViewController *executeTVC = (ExecitingTableViewController *) [self.childViewControllers objectAtIndex:0];
+    
+    CompleteTableViewController *completeTVC = (CompleteTableViewController *) [self.childViewControllers objectAtIndex:1];
+    
+    NSLog(@"Containers %@ ", self.childViewControllers);
+    
+    
+    executeTVC.delegate = completeTVC;
+  
+  
     // Do any additional setup after loading the view.
 }
 
@@ -31,16 +42,19 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
     if ([[segue identifier] isEqualToString:@"ExecutingListFoods"]) {
-        _heightOfInnerTable = [NSMutableArray arrayWithObject:[NSMutableString stringWithFormat:@"10"]];
+    //    _heightOfInnerTable = [NSMutableArray arrayWithObject:[NSMutableString stringWithFormat:@"10"]];
         ExecitingTableViewController *controller = (ExecitingTableViewController *)[segue destinationViewController] ;
         [controller setExecutingFoodList: _foodList1];
         [controller setHeightSuperView: (int)self.view.frame.size.height];
         
-        NSLog(@"Containers %@ ", self.childViewControllers);
+       // NSLog(@"Containers %@ ", self.childViewControllers);
         
-        [controller setDelegate:[self.childViewControllers objectAtIndex:0]];
+   //     [controller setDelegate:[self.childViewControllers objectAtIndex:0]];
     }
 }
+
+
+
 
 -(void)preferredContentSizeDidChangeForChildContentContainer:(id<UIContentContainer>)container {
     
